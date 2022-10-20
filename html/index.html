@@ -12,6 +12,12 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+
+        div.center {
+            margin: auto;
+            width: 50%;
+        }
+
         .button-main-screen {
         display: inline-block;
         border-radius: 4px;
@@ -61,12 +67,14 @@
             <img class="medium-size-image" src="images/title.png" alt="title" />
             <p></p>
             <p></p>
-            <button class="button-main-screen" onClick="navigateTo('html/choices.html')" style="font-family:verdana;"><span><b>PLAY</bold></span></button>
-            <p></p>
-            <p></p>
-            <button class="button-main-screen" onClick="navigateTo('html/choices.html')" style="font-family:verdana;"><span><b>RULES</bold></span></button>
-            <p></p>
-            <p></p>
+            <div class="center">
+                <button class="button-main-screen" onClick="navigateTo('html/choices.html')" style="font-family:verdana;"><span><b>PLAY</bold></span></button>
+                <p></p>
+                <p></p>
+                <button class="button-main-screen" onClick="navigateTo('html/choices.html')" style="font-family:verdana;"><span><b>RULES</bold></span></button>
+                <p></p>
+                <p></p>
+            </div>
         </div>
     </body>
 </html>
