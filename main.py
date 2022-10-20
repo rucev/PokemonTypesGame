@@ -1,4 +1,5 @@
 from flask import Flask, send_from_directory, jsonify
+import random
 
 app = Flask(__name__)
 
@@ -29,7 +30,7 @@ def backend_match(name):
             },
             {
                 "player": "Maria",
-                "choice": "fire"
+                "choice": random.choice(["fire", "water", "plant", "ice", "rock"])
             }
         ]
     }
