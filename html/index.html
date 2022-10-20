@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        div.absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #004AAD;
+        border: none;
+        color: #FECC02;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 250px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+        .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+
+        .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+        .button:hover span {
+        padding-right: 25px;
+        }
+
+        .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+        </style>
+    <body>
+
+        <div class="absolute" style="font-family:verdana;"><h1>POKÉMON TYPES GAME</h1>
+            <img src="C:\Users\Flors\Proyectos\PokemonTypesGame\html\images\title.png" alt="title" />
+            <p></p>
+            <p></p>
+            <button class="button" style="font-family:verdana;"><span><b>PLAY</bold></span></button>
+            <p></p>
+            <p></p>
+            <button class="button" style="font-family:verdana;"><span><b>RULES</bold></span></button>
+            <p></p>
+            <p></p>
+            <button class="button" style="font-family:verdana;"><span><b>EXIT</bold></span></button>
+        </div>
+        
+
+
+    </body>
+</html>
