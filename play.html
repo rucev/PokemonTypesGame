@@ -15,7 +15,7 @@
 
         div.center {
             margin: auto;
-            width: 40%;
+            width: 50%;
         }
 
         .button-main-screen {
@@ -58,23 +58,23 @@
         right: 0;
         }
 
-        .big-size-image {
-            max-width: 750px;
+        .medium-size-image {
+            max-width: 500px;
         }
     </style>
     <body>
-
         <div class="absolute">
-            <img class="big-size-image" src="/images/rules.png" alt="rules" />
+            <img class="medium-size-image" src="game/images/title.png" alt="title" />
             <p></p>
             <p></p>
             <div class="center">
-                <button class="button-main-screen" onClick="navigateTo('/html/choices.html')" style="font-family:verdana;"><span><b>PLAY</bold></span></button>
+                <button class="button-main-screen" onClick="navigateTo('game/match.html')" style="font-family:verdana;"><span><b>PLAY</bold></span></button>
+                <p></p>
+                <p></p>
+                <button class="button-main-screen" onClick="navigateTo('game/rules.html')" style="font-family:verdana;"><span><b>RULES</bold></span></button>
                 <p></p>
                 <p></p>
             </div>
-
         </div>
-
     </body>
 </html>
