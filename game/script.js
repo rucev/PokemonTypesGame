@@ -67,9 +67,8 @@ function incrementScore(scoreSpan) {
 
 function addSelectionResult(selection, winner) {
   const div = document.createElement("div")
-  div.appendChild(selection.sprite)
+  div.appendChild(selection.sprite).classList.add("mini-size-image")
   div.classList.add("result-selection")
-  div.classList.add("mini-size-image")
   if (winner) div.classList.add("winner")
   finalColumn.after(div)
 }
