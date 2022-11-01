@@ -6,7 +6,7 @@ Several modifications have been made, but much of the code is based on the Web D
 
 https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
 
-When you open the game you can see the strengths of each type in "rules". Once on the game "screen" you have to select a Pokémon and the CPU will also select one, a point will be added to the score of the winning.
+When you open the game you can see the strengths of each type in "rules". Once in the "game" screen you have to select a Pokémon and the CPU will also select one, a point will be added to the score of the winning Pokémon (if there is one). Scores are kept until the game is closed.
 
 Obviously, Pokémon does not belong to me. I just used it as an excuse to create a little project and practice a bit of web development.
 
