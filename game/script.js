@@ -6,27 +6,27 @@ const SELECTIONS = [
   {
     name: "fire",
     beats: ["plant", "ice"],
-    src: "images/fire.png"
+    src: "images/fire.webp"
   },
   {
     name: "plant",
     beats: ["water", "rock"],
-    src: "images/plant.png"
+    src: "images/plant.webp"
   },
   {
     name: "water",
     beats: ["fire", "rock"],
-    src: "images/water.png"
+    src: "images/water.webp"
   },
   {
     name: "ice",
     beats: ["water", "plant"],
-    src: "images/ice.png"
+    src: "images/ice.webp"
   },
   {
     name: "rock",
     beats: ["fire", "ice"],
-    src: "images/rock.png"
+    src: "images/rock.webp"
   }
 ]
 
