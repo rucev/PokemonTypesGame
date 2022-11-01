@@ -1,14 +1,3 @@
-var fire = new Image();
-fire.src = "images/fire.png";
-var plant = new Image();
-plant.src = "images/plant.png";
-var water = new Image();
-water.src = "images/water.png";
-var ice = new Image();
-ice.src = "images/ice.png";
-var rock = new Image();
-rock.src = "images/rock.png";
-
 const selectionButtons = document.querySelectorAll("[data-selection]")
 const finalColumn = document.querySelector("[data-final-column]")
 const computerScoreSpan = document.querySelector("[data-computer-score]")
@@ -16,28 +5,28 @@ const yourScoreSpan = document.querySelector("[data-your-score]")
 const SELECTIONS = [
   {
     name: "fire",
-    sprite: fire,
-    beats: ["plant", "ice"]
+    beats: ["plant", "ice"],
+    src: "images/fire.png"
   },
   {
     name: "plant",
-    sprite: plant,
-    beats: ["water", "rock"]
+    beats: ["water", "rock"],
+    src: "images/plant.png"
   },
   {
     name: "water",
-    sprite: water,
-    beats: ["fire", "rock"]
+    beats: ["fire", "rock"],
+    src: "images/water.png"
   },
   {
     name: "ice",
-    sprite: ice,
-    beats: ["water", "plant"]
+    beats: ["water", "plant"],
+    src: "images/ice.png"
   },
   {
     name: "rock",
-    sprite: rock,
-    beats: ["fire", "ice"]
+    beats: ["fire", "ice"],
+    src: "images/rock.png"
   }
 ]
 
@@ -66,8 +55,10 @@ function incrementScore(scoreSpan) {
 }
 
 function addSelectionResult(selection, winner) {
+  var image = new Image();
+  image.src = selection.src;
   const div = document.createElement("div")
-  div.appendChild(selection.sprite).classList.add("mini-size-image")
+  div.appendChild(image).classList.add("mini-size-image")
   div.classList.add("result-selection")
   if (winner) div.classList.add("winner")
   finalColumn.after(div)
