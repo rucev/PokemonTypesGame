@@ -6,7 +6,7 @@ Several modifications have been made, but much of the code is based on the Web D
 
 https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
 
-When you open the game you can see the strengths of each type in "rules". Once on the "match" screen you have to select a Pokémon and the CPU will also select one, a point will be added to the score of the winning >
+When you open the game you can see the strengths of each type in "rules". Once on the game "screen" you have to select a Pokémon and the CPU will also select one, a point will be added to the score of the winning >
 
 Obviously, Pokémon does not belong to me. I just used it as an excuse to create a little project and practice a bit of web development.
 
@@ -20,6 +20,6 @@ Se han realizado varias modificaciones, pero gran parte del código está hecho 
 
 https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
 
-Al abrir el juego se pueden ver las fortalezas de cada tipo en "rules". Una vez en la pantalla de "match" hay que seleccionar un pokémon y el CPU también elegirá uno, se sumará un punto al marcador del Pokémon ganador (si lo hay). Las puntuaciones se conservan hasta que se cierre el juego.
+Al abrir el juego se pueden ver las fortalezas de cada tipo en "rules". Una vez en la pantalla de "game" hay que seleccionar un pokémon y el CPU también elegirá uno, se sumará un punto al marcador del Pokémon ganador (si lo hay). Las puntuaciones se conservan hasta que se cierre el juego.
 
 Evidentemente, Pokémon no me pertenece. Solo lo he utilizado como una excusa para crear un pequeño proyecto y prácticar un poco de desarrollo web.
