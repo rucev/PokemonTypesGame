@@ -1,4 +1,4 @@
-import Footer from './components/footer.jsx';
+import Footer from './components/Footer.jsx';
 
 export default function Rules(props) {
     function handleGameClick(event) {
