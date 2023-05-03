@@ -71,8 +71,8 @@ export default function Game() {
                     You
                     <span className="game__result--score" data-your-score>{playerScore}</span>
                     <div className="game__result--selections">
-                        {selectionResultsPlayer.map((result) => (
-                            <div className={`game__result--selection ${result.winner ? "winner" : ""}`}>
+                        {selectionResultsPlayer.map((result, index) => (
+                            <div key={index} className={`game__result--selection ${result.winner ? "winner" : ""}`}>
                                 <img src={result.selection.src} alt={result.selection.name} className="game__result--image"/>
                             </div>
                         ))}
@@ -84,8 +84,8 @@ export default function Game() {
                         {computerScore}
                     </span>
                     <div className="game__result--selections">
-                        {selectionResultsComputer.map((result) => (
-                            <div className={`game__result--selection ${result.winner ? "winner" : ""}`}>
+                        {selectionResultsComputer.map((result, index) => (
+                            <div key={index} className={`game__result--selection ${result.winner ? "winner" : ""}`}>
                                 <img src={result.selection.src} alt={result.selection.name} className="game__result--image"/>
                             </div>
                         ))}
