@@ -1,3 +1,5 @@
+import Footer from './components/footer.jsx';
+
 export default function Rules(props) {
     function handleGameClick(event) {
         event.preventDefault();
@@ -9,5 +11,6 @@ export default function Rules(props) {
         <div className="rules__buttons">
             <button className="menu__buttons--button" onClick={handleGameClick}><span>PLAY</span></button>
         </div>
+        <Footer />
     </section>
 }

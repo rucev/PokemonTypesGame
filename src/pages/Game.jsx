@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { SELECTIONS } from '../rules.js';
+import Footer from './components/footer.jsx';
 
 export default function Game() {
     const [computerScore, setComputerScore] = useState(0);
@@ -92,6 +93,8 @@ export default function Game() {
                     </div>
                 </article>
             </section>
+            <Footer/>
         </main>
+        
     );
 }

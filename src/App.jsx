@@ -19,12 +19,11 @@ export default class App extends Component {
 
     render() {
         if (this.state.view === 'menu') {
-            return <Menu onGameClick={this.handleGoToGame} onRulesClick={this.handleGoToRules} />
+            return <Menu onGameClick={this.handleGoToGame} onRulesClick={this.handleGoToRules}/>
         } else if (this.state.view === 'rules') {
             return <Rules onGameClick={this.handleGoToGame} />
         } else {
             return <Game />
         }
-
     }
 }
