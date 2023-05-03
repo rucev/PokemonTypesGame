@@ -51,19 +51,19 @@ export default function Game() {
         <main>
             <section className="game__selections">
                 <button className="game__selection" data-selection="fire">
-                    <img className="game__selection--image" src="../../public/fire.webp" alt="fire" onClick={() => makeSelection(SELECTIONS[0])}/>
+                    <img className="game__selection--image" src="../../assets/images/fire.png" alt="fire" onClick={() => makeSelection(SELECTIONS[0])}/>
                 </button>
                 <button className="game__selection" data-selection="water">
-                    <img className="game__selection--image" src="../../public/water.webp" alt="water" onClick={() => makeSelection(SELECTIONS[1])}/>
+                    <img className="game__selection--image" src="../../assets/images/water.png" alt="water" onClick={() => makeSelection(SELECTIONS[1])}/>
                 </button>
                 <button className="game__selection" data-selection="plant">
-                    <img className="game__selection--image" src="../../public/plant.webp" alt="plant" onClick={() => makeSelection(SELECTIONS[2])}/>
+                    <img className="game__selection--image" src="../../assets/images/plant.png" alt="plant" onClick={() => makeSelection(SELECTIONS[2])}/>
                 </button>
                 <button className="game__selection" data-selection="ice">
-                    <img className="game__selection--image" src="../../public/ice.webp" alt="ice" onClick={() => makeSelection(SELECTIONS[3])}/>
+                    <img className="game__selection--image" src="../../assets/images/ice.png" alt="ice" onClick={() => makeSelection(SELECTIONS[3])}/>
                 </button>
                 <button className="game__selection" data-selection="rock">
-                    <img className="game__selection--image" src="../../public/rock.webp" alt="rock" onClick={() => makeSelection(SELECTIONS[4])}/>
+                    <img className="game__selection--image" src="../../assets/images/rock.png" alt="rock" onClick={() => makeSelection(SELECTIONS[4])}/>
                 </button>
             </section>
             <section className="game__result">
